@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config("BAI", layout="wide")
-st.title("📢 BAI – Content Generator")
+st.title("📢 BAI")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
