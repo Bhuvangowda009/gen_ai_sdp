@@ -1,8 +1,8 @@
 import streamlit as st
 from groq import Groq
 
-st.set_page_config("BAI", layout="wide")
-st.title("📢 BAI")
+st.set_page_config("BAI = NUMBER ONE AI APP IN THE WORLD CREATED BY GREAT BHUVAN GOWDA", layout="wide")
+st.title("📢 🦾 🧠 🧑‍🎓 BAI = NUMBER ONE AI APP IN THE WORLD CREATED BY GREAT BHUVAN GOWDA")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
