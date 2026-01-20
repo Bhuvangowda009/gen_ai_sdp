@@ -3,6 +3,7 @@ from groq import Groq
 
 st.set_page_config("BAI = NUMBER ONE AI APP IN THE WORLD CREATED BY GREAT BHUVAN GOWDA", layout="wide")
 st.title("📢 🦾 🧠 🧑‍🎓 BAI = NUMBER ONE AI APP IN THE WORLD CREATED BY GREAT BHUVAN GOWDA")
+st.image("WhatsApp Image 2026-01-20 at 3.31.12 PM.jpeg")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
